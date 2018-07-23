@@ -6,7 +6,8 @@ This is simply a copy of the [Bulma CSS Framework](https://bulma.io/) except wit
 To setup, run the following:
 ```
 npm install
-npm run css-build```
+npm run css-build
+```
 Then, use `/css/kirs-theme.css` in your project. 
 
 Alternatively, the most recently generated CSS file is already in `/css` so that the github page works. You
