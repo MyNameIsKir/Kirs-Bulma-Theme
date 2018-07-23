@@ -1,0 +1,33 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald');
+
+$family-sans-serif: 'Montserrat', sans-serif;
+$family-title: 'Oswald', sans-serif;
+
+h1, h2, h3, h4, h5, h6, label, th {
+  font-family: $family-title;
+}
+
+$grey-lighter: #EFEFEF;
+$grey-light: #A9A9A9;
+$grey: #707070;
+/*$grey: #*/
+$blue: #5BC0EB;
+$yellow: #FDE74C;
+$green: #9BC53D;
+$orange: #ffaa2b;
+$red: #E55934;
+
+$primary: $blue;
+$info: $yellow;
+$success: $green;
+$warning: $orange;
+$danger: $red;
+
+$body-background-color: $grey-lighter;
+$text: $grey-light;
+$text-strong: $grey;
+$label-color: $grey;
+$link: $red;
+
+@import "../node_modules/bulma/bulma.sass";
