@@ -2011,8 +2011,8 @@ a.box:active {
   .textarea.is-focused,
   .textarea:active,
   .textarea.is-active {
-    border-color: #E55934;
-    box-shadow: 0 0 0 0.125em rgba(229, 89, 52, 0.25); }
+    border-color: #5BC0EB;
+    box-shadow: 0 0 0 0.125em rgba(91, 192, 235, 0.25); }
   .input[disabled],
   .textarea[disabled] {
     background-color: whitesmoke;
@@ -2223,8 +2223,8 @@ a.box:active {
     .select select:hover, .select select.is-hovered {
       border-color: #A9A9A9; }
     .select select:focus, .select select.is-focused, .select select:active, .select select.is-active {
-      border-color: #E55934;
-      box-shadow: 0 0 0 0.125em rgba(229, 89, 52, 0.25); }
+      border-color: #5BC0EB;
+      box-shadow: 0 0 0 0.125em rgba(91, 192, 235, 0.25); }
     .select select[disabled] {
       background-color: whitesmoke;
       border-color: whitesmoke;
@@ -6423,3 +6423,9 @@ label.panel-block {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
+
+.is-full-width {
+  width: 100%; }
+
+.is-full-height {
+  height: 100%; }

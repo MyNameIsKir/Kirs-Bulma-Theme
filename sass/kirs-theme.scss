@@ -30,4 +30,8 @@ $text-strong: $grey;
 $label-color: $grey;
 $link: $red;
 
+$input-focus-border-color: $primary;
+$input-focus-box-shadow-color: rgba($input-focus-border-color, 0.25);
+
 @import "../node_modules/bulma/bulma.sass";
+@import "./helpers.scss";
